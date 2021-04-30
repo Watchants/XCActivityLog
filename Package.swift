@@ -41,5 +41,6 @@ let package = Package(
             name: "Application",
             dependencies: ["XCActivityLog", "IDEActivityLog"]),
 
-    ]
+    ],
+    cxxLanguageStandard: .cxx14
 )
